@@ -34,7 +34,7 @@ a {
 }
 
 .w-30 {
-    width: 30%;
+    width: 32%;
 }
 
 .w-40 {
@@ -443,4 +443,83 @@ main .main-header {
 
 .latest-fund-card .header-lfunding {
     margin-bottom: 0;
+}
+
+/* stuff section */
+
+.stuff {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.stuff-bg-1 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-apple-education-search-college-796x450.jpg");
+    background-size: cover;
+    height: 270px;
+
+}
+
+.stuff-bg-2 {
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FMivivooppo.png&signature=ebf55f1bd6045e036d77251c52126481");
+    background-size: cover;
+    height: 270px;
+}
+
+.stuff-bg-3 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Twitter-China-hed-796x419.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.stuff-bg-4 {
+    background-image: url("https://i.ytimg.com/vi/Z1jgaEO9aRs/hqdefault.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.stuff-bg-5 {
+    background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FUntitled-design93.png&signature=5567de457aadf123ffa4e8089781f8ab");
+    background-size: cover;
+    height: 270px;
+}
+
+.stuff-bg-6 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/article-2602504-1D068DE800000578-769_636x382-Cropped-796x419.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.stuff-bg-7 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-796x420.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.stuff-bg-8 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Untitled-design-66-796x417.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.header-element-stuff {
+    display: flex;
+}
+
+.bg-stuff {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-stuff-card .category {
+    width: 100%;
+}
+
+.header-stuff-card .title {
+    width: 100%;
+}
+
+.header-stuff-card .ft-stuff-card {
+    width: 100%;
 }
