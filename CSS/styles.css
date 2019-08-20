@@ -93,6 +93,17 @@ a {
     margin-top: 50px;
 }
 
+.bg-light-pink {
+    background: #fff0ed;
+}
+
+.p-10 {
+    padding: 12px;
+}
+
+.border-bottom-orange {
+    border-bottom: solid 1px #ffd0c4;
+}
 /* ==================================================== HEADER =================================================== */
 header {
     width: 100%;
@@ -153,7 +164,6 @@ header nav {
     float: right;
     font-size: 18px;
     text-align: right;
-    
 }
 
 .bottom-nav .search-btn a {
@@ -345,6 +355,92 @@ main .main-header {
     color: #aaaaaa;
 }
 
-.latest-article .date {
-    list-style-type: disc;
+/* latest funding */
+.latest-funding {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.latest-funding .latest-fund-card {
+    position: relative;
+    margin: 10px;
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    background: #fff0ed;
+    align-content: stretch;
+}
+
+.latest-funding .latest-funding-list {
+    text-align: right;
+}
+
+.latest-funding .latest-funding-list li {
+    display: inline-block;
+    color: #f83d29;
+    font-size: 16px;
+    padding: 0 8px 0 8px;
+}
+
+.latest-funding .side-border {
+    border-right: solid 1px #f83d29;
+    border-left:  solid 1px #f83d29;
+}
+
+.latest-fund-card .header-lfunding .title {
+    color: white;
+    background: #f83d29;
+    display: block;
+}
+
+.latest-fund-card .subtitle-container {
+    background: #feebe7;
+    color: #131313;
+}
+
+.latest-fund-card img {
+    width: 60px;
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    left: 0;
+}
+
+.latest-fund-card .title {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.latest-fund-card .subtitle-container {
+    text-align: right;
+    padding: 10px;
+}
+
+.latest-fund-card .subtitle-container h4 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.latest-fund-card .subtitle-container h5 {
+    color: #645754;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.latest-fund-card div > a {
+    color: #131313;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.latest-fund-card .header-lfunding {
+    margin-bottom: 0;
 }
