@@ -9,6 +9,7 @@ body {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     display: flex;
+    flex-wrap: wrap;
 }
 
 li {
@@ -77,11 +78,18 @@ header nav {
 .top-nav {
     font-size: 13px;
     font-weight: 300;
-    color: rgba(255 , 255, 255, 0.6);
     background: #131313;
     padding-right: 10px;
     padding-left: 10px;
     display: flex;
+}
+
+.top-nav a {
+    color: rgba(245, 241, 241, 0.753);
+}
+
+.rigth-nav {
+    align-items: flex-end;
 }
 
 .bottom-nav {
