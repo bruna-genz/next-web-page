@@ -510,10 +510,15 @@ main .main-header {
 .bg-stuff {
     display: flex;
     align-items: flex-end;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .header-stuff-card .category {
     width: 100%;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .header-stuff-card .title {
@@ -521,5 +526,116 @@ main .main-header {
 }
 
 .header-stuff-card .ft-stuff-card {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.header-stuff-card .ft-stuff-card a {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.header-stuff-card .ft-stuff-card li {
+    display: inline-block;
+}
+
+.header-stuff-card a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header-stuff-card .ft-stuff-card {
     width: 100%;
+}
+
+.mid-element-stuff {
+    background: #feebe7;
+    color: #f83d29;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+}
+
+.mid-element-stuff a {
+    min-height: 90px;
+    max-height: 90px;
+}
+
+.mid-element-stuff .recommend {
+    display: flex;
+    min-height: 90px;
+    max-height: 90px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.mid-element-stuff .category {
+    font-weight: 300;
+}
+
+.mid-element-stuff .bg-recommend {
+    height: 50px;
+}
+
+.card-stuff .links-list {
+    padding: 15px;
+}
+
+.card-stuff .links-list li {
+    list-style-type: disc;
+}
+
+.card-stuff .links-list a {
+    font-size: 14px;
+}
+
+.mid-element-stuff .recommend-bg-1 {
+    display: inline-block;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Instagram-fake-news-796x418.jpg") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-2 {
+    display: inline-block;
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fheader-image-bose-soundlink.png&signature=a8444be79732c3e3b611ec17c5bd3e6e") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-3 {
+    display: inline-block;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/secondgingrich-796x449.jpg") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-4 {
+    display: inline-block;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-796x417.png") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-5 {
+    display: inline-block;
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FFeatured-Image-TNW-Photo.jpg&signature=cc8b87bd7193066e87039f554604bab4") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-6 {
+    display: inline-block;
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fdark-web-cryptocurrency-bitcoin-drugs.jpg&signature=697d8e863c9a667a87c6e54fd6aeb52e") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-7 {
+    display: inline-block;
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Ffirefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla.jpg&signature=82ff6d44fb6b3c366514993155dd78a1") no-repeat;
+    background-size: cover;
+}
+
+.mid-element-stuff .recommend-bg-8 {
+    display: inline-block;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/jordan-peterson-notjordanpeterson-ai-voice-mimic-796x450.jpg") no-repeat;
+    background-size: cover;
 }
