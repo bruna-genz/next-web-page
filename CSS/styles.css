@@ -451,7 +451,12 @@ main .main-header {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.card-stuff {
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 .stuff-bg-1 {
@@ -580,16 +585,31 @@ main .main-header {
     height: 50px;
 }
 
+.mid-element-stuff .recommend .subtitle {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 18px;
+}
+
 .card-stuff .links-list {
     padding: 15px;
 }
 
+.card-stuff ul {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .card-stuff .links-list li {
     list-style-type: disc;
+    border-bottom: solid 1px #d8d8d8;
+    padding: 8px;
 }
 
 .card-stuff .links-list a {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #474747;
 }
 
 .mid-element-stuff .recommend-bg-1 {
