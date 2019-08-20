@@ -93,6 +93,7 @@ header nav {
     padding-right: 10px;
     padding-left: 10px;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .top-nav a {
@@ -100,6 +101,7 @@ header nav {
 }
 
 .right-nav {
+    display: flex;
     text-align: right;
 }
 
@@ -133,8 +135,7 @@ header nav {
 }
 
 .bottom-nav .search-btn a {
-    padding: 13px;
-    padding-left: 18px;
+    padding: 13px 13px 13px 18px;
     border-left: solid 0.5px #e9e7e7;
 }
 
@@ -142,8 +143,124 @@ header nav {
 main {
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 main .main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .main-article {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FIs-he_.jpg&signature=ae9e0e7acbcb093e4c9c769fa180443a")
+    no-repeat center;
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+/* main article */
+.main-article .gradient {
+    background: linear-gradient(180deg, rgba(248, 61, 41, 0.7), transparent);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.main-article .logo {
+    margin-bottom: 70px;
+}
+
+.main-article .logo img {
+    width: 100%;
+    padding: 20px;
+}
+
+.main-article .date {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.main-article .header-article {
+    padding: 10px;
+}
+
+.main-article .header-article h5 {
+    font-size: 16px;
+    font-weight: 300;
 
 }
+
+.main-article .header-article h2 {
+    font-size: 54px;
+    font-weight: 700;
+
+}
+
+.main-article li {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* small articles */
+
+.small-article {
+    padding: 70px 15px 15px 15px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.small-article .category {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.small-article li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.main-header .small-article-1 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Google-Search-app-796x398.jpg")
+    no-repeat center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.main-header .small-article-2 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/article-2602504-1D068DE800000578-769_636x382-Cropped-796x419.jpg")
+    no-repeat center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+/* latest news */
+.latest-news {
+    padding: 10px;
+}
+
+.bg-art-1 {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FFeatured-Image-TNW-Photo.jpg&signature=cc8b87bd7193066e87039f554604bab4")
+    no-repeat center;
+}
+
+.bg-art-2 {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fdark-web-cryptocurrency-bitcoin-drugs.jpg&signature=697d8e863c9a667a87c6e54fd6aeb52e")
+    no-repeat center;
+}
+
+.bg-art-3 {
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FUntitled-design-16.jpg&signature=0fff579302886864c1eac7a49414308d")
+    no-repeat center;
+}
+
+.bg-art-4 {}
+.bg-art-5 {}
+.bg-art-6 {}
+.bg-art-7 {}
+.bg-art-8 {}

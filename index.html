@@ -4,17 +4,16 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/styles.css">
-        <script src="/JS/all.min.js"></script>
+        <script src="JS/all.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>TNW Clone</title>
     </head>
     <body>
     <!--            HEADER          -->
     <header>
-        <!-- TODO: remember change 'X' for icons -->
         <nav>
             <!-- top nav bar -->
-            <div class="top-nav">
+            <div class="top-nav w-100">
                 <!-- the left side of the top nav bar -->
                 <ul class="left-nav w-80">
                     <li class="nav-item"><a href="#">News</a></li>
@@ -57,23 +56,30 @@
         <section class="main-header">
             <!-- main article -->
             <article class="w-70 main-article">
-                <div class="logo"></div>
-                <a href="#" class="block bitcoin"></a>
-                <div class="date">Monday - August 19, 2019</div>
-                <header class="header-article">
-                    <h5 class="category">INSIGHTS</h5>
-                    <h2 class="title">The latest claim to Satoshi Nakamoto is the stupidest one yet</h2>
-                    <ul class="footer-header">
-                        <li class="author">by Yessi Bello Perez</li>
-                        <li class="time"><i class="far fa-clock"></i> 4 hours ago</li>
-                        <li class="shares"><i class="fas fa-share-alt"></i> 14</li>
-                    </ul>
-                </header>
+                <div class="gradient w-100">
+                    <!-- logo -->
+                    <div class="logo w-60">
+                        <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg " alt="TNW">
+                    </div>
+                    <!-- date -->
+                    <div class="date w-40">Monday - August 19, 2019</div>
+                    <!-- main -->
+                    <header class="header-article w-100">
+                        <h5 class="category">INSIGHTS</h5>
+                        <h2 class="title">The latest claim to Satoshi Nakamoto is the stupidest one yet</h2>
+                        <!-- links -->
+                        <ul class="footer-header">
+                            <li class="author">by Yessi Bello Perez</li>
+                            <li class="time"><i class="far fa-clock"></i> 4 hours ago</li>
+                            <li class="shares"><i class="fas fa-share-alt"></i> 14</li>
+                        </ul>
+                    </header>
+                </div>
             </article>
 
             <!-- small articles -->
             <div class="w-30">
-                <article class="w-100 small-article-1">
+                <article class="w-100 small-article small-article-1">
                     <a href="#" class="block bitcoin"></a>
                     <header class="header-article">
                         <h5 class="category">TECH</h5>
@@ -86,7 +92,7 @@
                     </header>
                 </article>
 
-                <article class="w-100 small-article-2">
+                <article class="w-100 small-article small-article-2">
                     <a href="#" class="block bitcoin"></a>
                     <header class="header-article">
                         <h5 class="category">INSIGHTS</h5>
