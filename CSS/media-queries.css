@@ -2,6 +2,14 @@
 
 @media screen and (max-width: 1000px) {
 /* header articles */
+    .main-header {
+        max-width: 100%;
+    } 
+
+    .main-article {
+        width: 45%;
+    }
+
     .main-article .header-article .title {
         font-size: 37px;
         font-weight: 700;
@@ -22,6 +30,7 @@
     .latest-article {
         width: 30%;
         margin: 0;
+        padding: 10px;
     }
 
 /* latest funding */
@@ -37,7 +46,6 @@
 
     .latest-fund-card {
         min-width: 30%;
-        background: green;
     }
 
     .latest-funding header {
@@ -62,7 +70,16 @@
     /* latest deals */
     .latest-deals {
         width: 100%;
-        background: #f83d29;
+        margin: 0;
+        background: blue;
+    }
+
+    .ldeals-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: green;
     }
 
     .ldeal {
