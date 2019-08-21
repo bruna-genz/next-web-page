@@ -24,14 +24,20 @@
         width: 100%;
         justify-content: flex-start;
         margin: 0;
-        padding: 0;
+        padding: 10px;
     }
 
-    .latest-article {
+    .larticles-container {
+        max-width: 100% !important;
+        justify-content: flex-start;
+    }
+
+    .larticles-container .latest-article {
         width: 30%;
         margin: 0;
         padding: 10px;
     }
+
 
 /* latest funding */
 
@@ -71,19 +77,25 @@
     .latest-deals {
         width: 100%;
         margin: 0;
-        background: blue;
+        display: flex;
     }
 
     .ldeals-list {
+        flex-shrink: 2;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        background: green;
+        justify-content: flex-start;
     }
 
-    .ldeal {
-        width: 33%;
+    .ldeals-list .ldeal {
+        width: 31%;
+        padding: 10px;
         margin: 0;
     }
+
+    .ldeals-list .a-bg {
+        padding-top: 60%;
+    }
+
 }
