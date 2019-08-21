@@ -20,22 +20,18 @@
     }
 
 /* latest news */
+    .larticles-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+
     .latest-news {
         width: 100%;
-        justify-content: flex-start;
-        margin: 0;
-        padding: 10px;
     }
 
-    .larticles-container {
-        max-width: 100% !important;
-        justify-content: flex-start;
-    }
-
-    .larticles-container .latest-article {
-        width: 30%;
-        margin: 0;
-        padding: 10px;
+    .latest-article {
+        width: 33%;
+        padding: 5px;
     }
 
 
@@ -69,7 +65,7 @@
     }
 
     .card-stuff {
-        width: 45%;
+        width: 50%;
         padding: 10px;
     }
 
@@ -89,7 +85,7 @@
     }
 
     .ldeals-list .ldeal {
-        width: 31%;
+        width: 33%;
         padding: 10px;
         margin: 0;
     }

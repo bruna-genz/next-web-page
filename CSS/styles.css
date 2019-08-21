@@ -67,7 +67,6 @@ a {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
-    min-width: 1000px;
 }
 
 .w-100 {
@@ -292,57 +291,16 @@ main .main-header {
 
 /* latest news */
 .latest-news {
+    max-width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
-}
-
-.bg-art-1 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FFeatured-Image-TNW-Photo.jpg&signature=cc8b87bd7193066e87039f554604bab4")
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-2 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fdark-web-cryptocurrency-bitcoin-drugs.jpg&signature=697d8e863c9a667a87c6e54fd6aeb52e")
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-3 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FUntitled-design-16.jpg&signature=0fff579302886864c1eac7a49414308d")
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-4 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fheader-image-bose-soundlink.png&signature=a8444be79732c3e3b611ec17c5bd3e6e") 
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-5 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2FBinance-venus-project-venus-blockchain-cryptocurrency-marketing-bitcoin-stablecoin.png&signature=948e27019ce0833eef839e1e0370f27f") 
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-6 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Untitled-design-5-796x417.png ") 
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-7 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/sale_21026_primary_image_wide-796x398.jpg ")
-    no-repeat center;
-    background-size: cover; 
-}
-.bg-art-8 {
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F03%2Fproof-of-stake-ethereum-blockchain-cryptocurrency-hard-fork-fork-update-scaling.jpg&signature=a48b7c39d1a15d0f10fd29004ae87e9f") 
-    no-repeat center;
-    background-size: cover; 
 }
 
 .larticles-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: aqua;
 }
 .latest-article {
     display: flex;
@@ -350,8 +308,7 @@ main .main-header {
     padding-bottom: 20px;
 }
 
-.lnews-background {
-    padding-top: 50%;
+.lnews-background img {
     width: 100%;
 }
 
