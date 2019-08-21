@@ -127,6 +127,7 @@ header nav {
     padding-right: 10px;
     padding-left: 10px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
 
@@ -140,6 +141,8 @@ header nav {
 }
 
 .bottom-nav {
+    display: flex;
+    justify-content: space-between;
     font-size: 14px;
     font-weight: 400;
     justify-content: space-between;
@@ -220,6 +223,9 @@ main .main-header {
 }
 
 .main-article .header-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     padding: 10px;
 }
 
@@ -244,10 +250,13 @@ main .main-header {
 /* small articles */
 
 .small-article {
-    padding: 70px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 15px 15px 15px;
     color: #ffffff;
-    font-size: 18px;
-    height: 260px;
+    font-size: 15px;
+    height: 280px;
 }
 
 .small-article .category {
@@ -680,7 +689,9 @@ main .main-header {
 }
 
 .ldeals-list .ldeal {
-    margin: 10px;
+    margin: 0;
+    padding: 10px;
+    width: 25%;
 }
 
 .ldeal h4 a {
