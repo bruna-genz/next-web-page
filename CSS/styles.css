@@ -104,6 +104,10 @@ a {
 .border-bottom-orange {
     border-bottom: solid 1px #ffd0c4;
 }
+
+.none {
+    display: none;
+}
 /* ==================================================== HEADER =================================================== */
 header {
     width: 100%;

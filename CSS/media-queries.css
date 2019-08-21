@@ -1,6 +1,5 @@
-/* ======================================= 1000px ================================================= */
-
-@media screen and (max-width: 1000px) {
+/* ======================================= 1024px ================================================= */
+@media screen and (max-width: 1024px) {
 /* header articles */
     .main-header {
         max-width: 100%;
@@ -93,4 +92,105 @@
         padding-top: 60%;
     }
 
+}
+
+/* ======================================== 762px ================================================== */
+@media screen and (max-width: 762px) {
+    .nav-item {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .bottom-nav .logo {
+        width: 15%;
+        background: linear-gradient(135deg, #cd0090, #f83d29);
+        padding: 10px;
+    }
+
+    .menu-btn {
+        padding: 13px 13px 13px 18px;
+        border-left: solid 1px #e9e7e7;
+        display: inline-block;
+        color: #f83d29;
+    }
+
+    /* main header */
+    .main-header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-header .main-article {
+        height: 200px;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .main-article .logo {
+        display: none;
+    }
+
+    .main-article .date {
+        display: none;
+    }
+
+    .main-article .header-article .title {
+        font-size: 20px;
+    }
+
+    .main-article .gradient {
+        background: rgba(0, 0, 0, .3);
+    }
+
+    .main-header .small-articles {
+        width: 100%;
+    }
+
+    .main-header .small-article {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+    }
+
+    .small-article .header-article .title {
+        font-size: 20px;
+    }
+
+    .small-article .gradient {
+        background: rgba(0, 0, 0, .3);
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+    /* latest news */
+
+    .larticles-container .latest-article {
+        width: 100%;
+    }
+
+    .latest-article .lnews-background {
+        display: inline-block;
+        overflow: hidden;
+        width: 75px;
+        margin: 10px 10px 10px 0;
+    }
+
+    .latest-article .lnews-background img {
+        width: 150%;
+        position: center;
+    }
+
+    .latest-article .title {
+        width: 84%;
+    }
+
+    .latest-article .footer-lnews-list {
+        width: 84%;
+    }
 }
