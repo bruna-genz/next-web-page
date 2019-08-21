@@ -93,10 +93,6 @@ a {
     margin-top: 50px;
 }
 
-.margin-b-30 {
-    margin-bottom: 30px;
-}
-
 .bg-light-pink {
     background: #fff0ed;
 }
@@ -150,6 +146,7 @@ header nav {
     background-color: white;
     position: sticky; 
     top: 0;
+    z-index: 50;
 }
 
 .bottom-nav a {
@@ -367,6 +364,10 @@ main .main-header {
     padding: 10px;
 }
 
+.lfund-card-container {
+    display: flex;
+}
+
 .latest-funding .latest-fund-card {
     position: relative;
     margin: 10px;
@@ -375,7 +376,6 @@ main .main-header {
     flex-wrap: wrap;
     flex-flow: column;
     background: #fff0ed;
-    align-content: stretch;
 }
 
 .latest-funding .latest-funding-list {

@@ -1,0 +1,32 @@
+/* ======================================= 1000px ================================================= */
+
+@media screen and (max-width: 1000px) {
+
+/* latest news */
+
+    .latest-article {
+        width: 30%;
+    }
+
+    .latest-news {
+        width: 100%;
+        justify-content: flex-start; 
+    }
+
+/* latest funding */
+
+    .latest-funding {
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .latest-funding .none {
+        display: none;
+    }
+
+    .lastest-fund-card {
+        min-width: 40%;
+        background: green;
+        
+    }
+}
