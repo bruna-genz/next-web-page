@@ -1,32 +1,67 @@
 /* ======================================= 1000px ================================================= */
 
 @media screen and (max-width: 1000px) {
+/* header articles */
+    .main-article .header-article .title {
+        font-size: 16px;
+    }
 
 /* latest news */
+    .latest-news {
+        width: 100%;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
 
     .latest-article {
         width: 30%;
-    }
-
-    .latest-news {
-        width: 100%;
-        justify-content: flex-start; 
+        margin: 0;
     }
 
 /* latest funding */
 
     .latest-funding {
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .latest-funding .none {
         display: none;
     }
 
-    .lastest-fund-card {
-        min-width: 40%;
+    .latest-fund-card {
+        min-width: 30%;
         background: green;
-        
+    }
+
+    .latest-funding header {
+        flex-direction: column;
+    }
+
+    .latest-funding-list {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* stuff */
+    .stuff {
+        width: 100%;
+    }
+
+    .card-stuff {
+        width: 45%;
+        padding: 10px;
+    }
+
+    /* latest deals */
+    .latest-deals {
+        width: 100%;
+        background: #f83d29;
+    }
+
+    .ldeal {
+        width: 33%;
+        margin: 0;
     }
 }

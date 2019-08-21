@@ -67,6 +67,7 @@ a {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
+    min-width: 1000px;
 }
 
 .w-100 {
@@ -364,6 +365,11 @@ main .main-header {
     padding: 10px;
 }
 
+.latest-funding header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .lfund-card-container {
     display: flex;
 }
@@ -459,8 +465,8 @@ main .main-header {
 }
 
 .card-stuff {
-    margin-left: 7px;
-    margin-right: 7px;
+    padding: 10px;
+    width: 33%;
 }
 
 .stuff-bg-1 {
