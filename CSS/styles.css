@@ -149,7 +149,6 @@ header nav {
   justify-content: space-between;
   font-size: 14px;
   font-weight: 400;
-  justify-content: space-between;
   padding-right: 10px;
   background-color: white;
   position: sticky;
@@ -362,7 +361,6 @@ main .main-header {
   width: 23%;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: column;
   background: #fff0ed;
 }
 
@@ -394,6 +392,8 @@ main .main-header {
 .latest-fund-card .subtitle-container {
   background: #feebe7;
   color: #131313;
+  text-align: right;
+  padding: 10px;
 }
 
 .latest-fund-card img {
@@ -409,11 +409,6 @@ main .main-header {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
-  padding: 10px;
-}
-
-.latest-fund-card .subtitle-container {
-  text-align: right;
   padding: 10px;
 }
 
@@ -528,6 +523,7 @@ main .main-header {
   font-size: 12px;
   color: #fff;
   font-weight: 300;
+  width: 100%;
 }
 
 .header-stuff-card .ft-stuff-card a {
@@ -544,10 +540,6 @@ main .main-header {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-}
-
-.header-stuff-card .ft-stuff-card {
-  width: 100%;
 }
 
 .mid-element-stuff {
