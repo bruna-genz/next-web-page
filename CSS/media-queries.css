@@ -262,6 +262,66 @@
     .latest-funding-list li {
         text-align: left;
         border: none;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
+    .latest-funding .latest-funding-list a {
+        font-size: 15px;
+    }
+
+    .latest-funding-list .side-border {
+        border: none;
+    }
+
+    .lfund-card-container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lfund-card-container .latest-fund-card {
+        width: 100%;
+    }
+
+    .latest-fund-card .title {
+        text-align: left;
+        padding-left: 85px;
+    }
+
+    .latest-fund-card .subtitle-container {
+        text-align: left;
+        padding-left: 85px;
+    }
+
+    /* stuff section */
+
+    .stuff {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .card-stuff {
+        width: 100%;
+    }
+
+    .header-element-stuff {
+        height: 460px;
+    }
+
+    .bg-stuff {
+        width: 100%;
+    }
+
+    /* latest deals */
+
+    .latest-deals {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ldeals-list .ldeal {
+        width: 100%;
+    }
 }
