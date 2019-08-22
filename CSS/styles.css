@@ -664,9 +664,14 @@ main .main-header {
   flex-wrap: wrap;
 }
 
+.ldeal .ldeals-bg {
+  width: 100%;
+}
+
 .ldeal img {
-    width: 100%;
-    height: 150%;
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
 }
 
 .ldeals-list .ldeal {
