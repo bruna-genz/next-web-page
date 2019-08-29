@@ -114,6 +114,10 @@ header {
     width: 100%;
 }
 
+.logo-md {
+    display: none;
+}
+
 header nav {
     width: 100%;
     position: relative;

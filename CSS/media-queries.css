@@ -1,6 +1,19 @@
 /* ======================================= 1024px ================================================= */
 @media screen and (max-width: 1024px) {
     /* header articles */
+    header {
+        display: flex;
+    }
+
+    .logo-md {
+        display: inline-block;
+        position: sticky;
+        width: 10%;
+        height: 100%;
+        background: linear-gradient(135deg, #cd0090, #f83d29);
+        padding: 15px 15px 10px 15px;
+    }
+
     .main-header {
         max-width: 100%;
     }
@@ -12,6 +25,18 @@
     .main-article .header-article .title {
         font-size: 37px;
         font-weight: 700;
+    }
+
+    .main-article .logo {
+        display: none;
+    }
+
+    .main-article .date {
+        display: none;
+    }
+
+    .main-article .gradient {
+        background: rgba(0, 0, 0, 0.3);
     }
 
     .small-article .header-article .title {
@@ -95,6 +120,10 @@
 
 /* ======================================== 762px ================================================== */
 @media screen and (max-width: 762px) {
+    .logo-md {
+        display: none;
+    }
+    
     .nav-item {
         display: none;
     }
@@ -105,8 +134,9 @@
 
     .bottom-nav .logo {
         width: 15%;
+        height: 100%;
         background: linear-gradient(135deg, #cd0090, #f83d29);
-        padding: 10px;
+        padding: 15px 15px 10px 15px;
     }
 
     .menu-btn {
