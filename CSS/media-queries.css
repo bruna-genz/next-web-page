@@ -1,0 +1,335 @@
+/* ======================================= 1024px ================================================= */
+@media screen and (max-width: 1024px) {
+    /* header articles */
+    header {
+        display: flex;
+    }
+
+    .logo-md {
+        display: inline-block;
+        position: sticky;
+        width: 10%;
+        height: 100%;
+        background: linear-gradient(135deg, #cd0090, #f83d29);
+        padding: 15px 15px 10px 15px;
+    }
+
+    .main-header {
+        max-width: 100%;
+    }
+
+    .main-article {
+        width: 45%;
+    }
+
+    .main-article .header-article .title {
+        font-size: 37px;
+        font-weight: 700;
+    }
+
+    .main-article .logo {
+        display: none;
+    }
+
+    .main-article .date {
+        display: none;
+    }
+
+    .main-article .gradient {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .small-article .header-article .title {
+        font-size: 18px;
+    }
+
+    /* latest news */
+    .larticles-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .latest-news {
+        width: 100%;
+    }
+
+    .latest-article {
+        width: 33%;
+        padding: 5px;
+    }
+
+    /* latest funding */
+
+    .latest-funding {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .latest-funding .none {
+        display: none;
+    }
+
+    .latest-fund-card {
+        min-width: 30%;
+    }
+
+    .latest-funding header {
+        flex-direction: column;
+    }
+
+    .latest-funding-list {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* stuff */
+    .stuff {
+        width: 100%;
+    }
+
+    .card-stuff {
+        width: 50%;
+        padding: 10px;
+    }
+
+    /* latest deals */
+    .latest-deals {
+        width: 100%;
+        margin: 0;
+        display: flex;
+    }
+
+    .ldeals-list {
+        flex-shrink: 2;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .ldeals-list .ldeal {
+        width: 33%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .ldeals-list .a-bg {
+        padding-top: 60%;
+    }
+}
+
+/* ======================================== 762px ================================================== */
+@media screen and (max-width: 762px) {
+    .logo-md {
+        display: none;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .bottom-nav .logo {
+        width: 15%;
+        height: 100%;
+        background: linear-gradient(135deg, #cd0090, #f83d29);
+        padding: 15px 15px 10px 15px;
+    }
+
+    .menu-btn {
+        padding: 13px 13px 13px 18px;
+        border-left: solid 1px #e9e7e7;
+        display: inline-block;
+        color: #f83d29;
+    }
+
+    /* main header */
+    .main-header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-header .main-article {
+        height: 200px;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .main-article .logo {
+        display: none;
+    }
+
+    .main-article .date {
+        display: none;
+    }
+
+    .main-article .header-article .title {
+        font-size: 20px;
+    }
+
+    .main-article .gradient {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .main-header .small-articles {
+        width: 100%;
+    }
+
+    .main-header .small-article {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+    }
+
+    .small-article .header-article .title {
+        font-size: 20px;
+    }
+
+    .small-article .gradient {
+        background: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        padding: 15px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    /* latest news */
+    .larticles-container {
+        display: flex;
+    }
+
+    .latest-article {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .latest-article .lnews-background {
+        width: 75px;
+    }
+
+    .lnews-background img {
+        object-fit: cover;
+        height: 75px;
+        width: 75px;
+    }
+
+    .latest-article .text {
+        margin-left: 10px;
+    }
+
+    .latest-article .text a {
+        font-size: 12px;
+    }
+
+    .latest-article .footer-lnews-list a {
+        font-size: 10px;
+        color: #aaa;
+    }
+
+    .latest-article .footer-lnews-list li {
+        font-size: 10px;
+    }
+
+    /* latest funding */
+    .latest-funding {
+        width: 100%;
+    }
+
+    .latest-funding-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .latest-funding .latest-funding-list li {
+        text-align: left;
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .latest-funding .latest-funding-list a {
+        font-size: 15px;
+    }
+
+    .latest-funding-list .side-border {
+        border: none;
+    }
+
+    .lfund-card-container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lfund-card-container .latest-fund-card {
+        width: 100%;
+    }
+
+    .latest-funding .latest-fund-card .title {
+        text-align: left;
+        padding-left: 85px;
+    }
+
+    .latest-fund-card .subtitle-container {
+        text-align: left;
+        padding-left: 85px;
+    }
+
+    /* stuff section */
+
+    .stuff {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .card-stuff {
+        width: 100%;
+    }
+
+    .header-element-stuff {
+        height: 460px;
+    }
+
+    .bg-stuff {
+        width: 100%;
+    }
+
+    /* latest deals */
+
+    .latest-deals {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+    }
+
+    .ldeal {
+        display: flex;
+    }
+
+    .ldeal .ldeals-bg {
+        width: 15%;
+    }
+
+    .ldeal .ldeals-bg img {
+        object-fit: cover;
+        width: 75px;
+        height: 75px;
+    }
+
+    .ldeal .text {
+        width: 85%;
+    }
+
+    .ldeals-list .ldeal {
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-bottom .block-ft {
+        display: block;
+    }
+}
