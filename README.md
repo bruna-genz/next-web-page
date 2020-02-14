@@ -1,4 +1,4 @@
-# NextWeb page
+# Building with Responsive Design
 
 > This project consists on a clone for the [TNW](https://thenextweb.com/) homepage, with the objective of building a responsive design.
 
